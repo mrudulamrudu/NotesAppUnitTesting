@@ -4,13 +4,15 @@ import android.app.Application;
 
 import com.notes.notesapp.BaseApplication;
 
+import javax.inject.Singleton;
+
 import dagger.BindsInstance;
 import dagger.Component;
 import dagger.android.AndroidInjectionModule;
 import dagger.android.AndroidInjector;
 
+@Singleton
 @Component(
-
         modules = {AndroidInjectionModule.class,
                 AppModule.class,
                 ActivityBuildersModule.class,

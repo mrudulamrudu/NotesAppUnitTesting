@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 
-public class LiveDatetUtil<T> {
+public class LiveDataTesttUtil<T> {
 
     public T getValue(final LiveData<T> liveData) throws InterruptedException {
 
